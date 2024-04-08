@@ -5,7 +5,7 @@ let firstName = 'Brock';
 // 2 - Create a second variable called `lastName` and assign it the value of your last name
 let lastName = 'Biever';
 // 3 - Create a third variable called `fullName`, assign it the value of your first and last name
-let fullname = (firstName,lastName);
+let fullname = (firstName+lastName);
 //     (remember, you already have variables for this, can you use those?)
 //     Console log the value of `fullName` 
 console.log(fullname);
@@ -41,7 +41,7 @@ const allowedPets= 10;
 // 12 - Create a variable called `result`. Create a conditional:
 if (adventurous=true){
   console.log('Adventures are great!')
-};
+}
 else{
   console.log('How about we stay home?')
 }l;
@@ -52,7 +52,7 @@ else{
 // 13 - Create a variable called `diceRoll` and set it to the value of "Try again later.".
 let diceRoll='Try again later';
 //   Create a compound conditional: 
-if(luckyNumber=3.14 adventurous=true);
+if(luckyNumber==3.14 && adventurous==true);
 //      if luckyNumber is 2 and adventurous is true,
 diceRoll= "roll the dice!";
 //      set `diceRoll` to be "Roll the dice!"
@@ -90,23 +90,19 @@ if(pets>friendPets){mostPets=pets};
 if(pets<friendPets){mostPets=friendPets};
 console.log(mostPets);
 // 16 - Make a variable called `luckyResult`
-let luckyResult;
+
 //      Write a *switch* statement that sets `luckyResult` to:
-if(luckyResult=1){
-  console.log("First is the worst")};
-  if(luckyResult=2){
-    console.log('second is the best')};
-  if(luckyResult=3){
-    console.log('Third is the one with the polka dot dress')
-    console.log('Luck is what happnens when preparation meets opprtunity')
-  };
-  const luckyResult=1
+
+  let luckyResult=1
   switch (luckyResult) {
-    case luckyResult=1 {console.log('First is the worst')}
+    case 1:
+       {console.log('First is the worst')}
     break 
-    case luckyResult=2{console.log('second is the best')}
+    case 2: 
+    {console.log('second is the best')}
     break
-    case luckyResult=3{console.log('Third is the one with the polka dot dress')
+    case 3: 
+    {console.log('Third is the one with the polka dot dress')
     console.log('Luck is what happens when preperation meets opprotunity')};
   }
 //      "First is the worst" if your lucky number is 1
@@ -116,7 +112,7 @@ if(luckyResult=1){
 //      You'll need to research how to use switch statements!
 //      console.log `luckyResult` after the conditional has run.
 
-let adventurous=true;
+ adventurous=true;
 let FeelingsOfAdventure = adventuruous ? 'Adventures are great!': 'how about we stay home?';
 console.log(FeelingsOfAdventure);
 
