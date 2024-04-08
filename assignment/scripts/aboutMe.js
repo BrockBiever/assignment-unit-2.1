@@ -84,7 +84,7 @@ if(pets>allowedPets){
 //      be sure to think through all the scenarios. 
 //      console.log `mostPets` after the conditional has run.
 let mostPets;
-if(pets=friendsPets,){mostPets=pets};
+if(pets=friendsPets){mostPets=pets};
 if(friendsPets=pets){mostPets=friendsPets};
 if(pets>friendPets){mostPets=pets};
 if(pets<friendPets){mostPets=friendPets};
