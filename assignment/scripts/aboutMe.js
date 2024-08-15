@@ -30,7 +30,7 @@ let pets  = 6 ;
 // 9 - Create a variable called `friendsPets` and assign it the value of the number of pets your friend has
 let friendsPets = 2 ;
 // 10 - Add two pets to your `pets` variable
-pets + 2 ;
+pets += 2 ;
 // 11 - Create a constant variable called `allowedPets` and set it to a number value of your choice
 const allowedPets = 6 ;
 // 12 - Create a variable called `result`. Create a conditional:
@@ -52,7 +52,7 @@ else{
 //      Console log the value of `diceRoll`
 
 let diceRoll = "Try again later" ;
-if (luckyNumber === 2, adventerous === true ){
+if (luckyNumber === 2 && adventerous === true ){
   diceRoll = "Roll the dice!"
 } 
 else{diceRoll = "Try again later"}
